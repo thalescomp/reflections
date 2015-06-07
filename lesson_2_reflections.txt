@@ -28,5 +28,7 @@ the diagram the way we do?
 
 	Merging two branches together results in one of the branches with the modifications provided by both branches considering their common path within their new commits in their own branches path. A merging is represented by two branches going to only one commit because it is the purpose of mergins, combining two branches into one. So this commit has two parents which are the commits from the two previous branches.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	I think the pros is that it is less effort and time wasted for the programmer. The cons is that sometimes it could either raise false conflicts or don't raise real conflicts as this automatic mergins is made by a machine learning. 
