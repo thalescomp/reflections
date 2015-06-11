@@ -1,34 +1,33 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	When I initialize a repository the git system creates some hidden objects. 
-	We need to do it because these new files are responsible for tracking my 
-	files allowing to do version control over it.
+	When I initialize a repository the git creates some hidden files responsible for tracking my 
+	files. It allows me to start commiting my files from the working directory to this new repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	Staging area is the place where you can put your files that you want to commit. It allows us to select files to commit without the necessity of comitting all files. The staging area also allows us to use the command diff between the stage area and the last commit.
+	Staging area is the place where you can put your files that you want to commit. It allows us to select files to commit without the necessity of comitting all files. The staging area also allows us to use the command diff between the staging area and the last commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	I can use the diff command to see the difference between the staging area and the last commit. With this comparison we can check if we are really making a commit per logical change.
+	It's normal we do many updates in our code forgetting the necessity of doing commits. When it occurs, we cam select some modified files that is related with a logical change and put them at the staging area. So with the stage area we can choose which files are related and commit them making sure that it was a commit per logical change even that we've made changes in several files!
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	When we are doing some changes that aren't official, just experimental or when we are spliting tasks into groups we use branch for keeping our modifications separated and organized. Branches help us separating the modifications into new branches allowing us to have more freedom within our code modifying this as we want to.
+	When we are doing some changes that aren't official, just experimental or when we are spliting tasks in our development team where we use branch for keeping our modifications separated and organized. Branches help us separating the modifications into new branches allowing us to have more freedom within our code modifying this as we want to.
 
 How do the diagrams help you visualize the branch structure?
 
-	The diagrams help me to see how is the branches structured and which parent's commit are they from. In this way, we can see where is the master branch and how is the other branches related with this.
+	The diagrams help me to see how is the branches structured and from which parent they are. In this way, we can see where is the master branch and how is the other branches related with this.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-	Merging two branches together results in one of the branches with the modifications provided by both branches considering their common path within their new commits in their own branches path. A merging is represented by two branches going to only one commit because it is the purpose of mergins, combining two branches into one. So this commit has two parents which are the commits from the two previous branches.
+	Merging two branches together results in one of the branches with a new commit with the modifications provided by both branches considering their common path within their new commits in their own branches path. A merging is represented by two branches going to only one commit because it is the purpose of merges, combining two branches into one. So this commit has two parents which are the commits from the two previous branches separately.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-	I think the pros is that it is less effort and time wasted for the programmer. The cons is that sometimes it could either raise false conflicts or don't raise real conflicts as this automatic mergins is made by a machine learning. 
+	I think the pros is that it is less effort and time wasted for the programmer. I don't think that there are cons by using automatic merging instead of manual merges.
