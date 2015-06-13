@@ -11,7 +11,7 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Branches: create a new workflow from your currently project.
+    Branches: create a new workflow from your current project.
     Forks: branches in GitHub between users.
     Clones: copy a project from GitHub to your local repository.
 
