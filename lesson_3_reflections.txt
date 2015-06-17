@@ -33,4 +33,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Mainly when we want to colaborate with other people using GitHub. Making changes in a separate branch allow me to push my branch and to do a pull request asking to another people to check my branch. If everything is ok he will merge it with the master branch in GitHub. If it is not, the user could leave me a comment. So I ll see the comment, make the corrections and ask again to merge with the master and so on. So making branches let me to do my own work and to colaborate with other users. It also gives me more freedom to do what I want to do.
